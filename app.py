@@ -4,9 +4,9 @@ import pickle
 import joblib
 
 app = Flask(__name__)
-model = joblib.load("students_mark_predictor.pkl")
-@app.route('/')
-def home():
+model = pickle.load(open("students_mark_predictor.pkl", "rb"))
+@app.route('/',methods=['GET'])
+def Home():
     return render_template('index.html')
 
 @app.route('/predict', methods = ['POST'])
