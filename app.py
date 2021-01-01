@@ -4,7 +4,7 @@ import pickle
 import joblib
 
 app = Flask(__name__)
-model = joblib.load("Students_mark_predictor_model.pkl")
+model = joblib.load("Students_mark_predictor.pkl")
 @app.route('/')
 def home():
     return render_template('index.html')
