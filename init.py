@@ -1,16 +1,23 @@
-import numpy as np
-from flask import Flask, request, render_template, url_for
+from flask import Flask, render_template, request
+import jsonify
+import requests
 import pickle
+import numpy as np
+import sklearn
 import joblib
+from sklearn.preprocessing import StandardScaler
 
 app = Flask(__name__)
-model = joblib.load("Students_mark_predictor_model.pkl")
-@app.route('/')
-def home():
+model = pickle.load(open("Students_mark_predictor_model.pkl", "rb"))
+@app.route('/',methods=['GET'])
+def Home():
     return render_template('index.html')
 
-@app.route('/predict', methods = ['POST'])
+
+standard_to = StandardScaler()
+@app.route("/predict", methods=['POST'])
 def predict():
+    
     input_features = [float(x) for x in request.form.values()]
     value = np.array(input_features)
     output = model.predict([value])[0][0].round(2)
