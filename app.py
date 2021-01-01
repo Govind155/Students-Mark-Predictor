@@ -4,7 +4,7 @@ import pickle
 import joblib
 
 app = Flask(__name__)
-model = joblib.load("Students_mark_predictor.pkl")
+model = joblib.load("students_mark_predictor.pkl")
 @app.route('/')
 def home():
     return render_template('index.html')
@@ -15,5 +15,6 @@ def predict():
     value = np.array(input_features)
     output = model.predict([value])[0][0].round(2)
     return render_template('index.html', Prediction_text = f"you will get {output}% marks, when you do study {input_features} hours per day")
+
 if __name__ == "__main__":
     app.run(debug=True)
