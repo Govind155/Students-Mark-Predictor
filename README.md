@@ -4,10 +4,6 @@ This system aims to predict student's marks using linear regression. The idea be
 ## Live Demo
 https://marks-predictor-01.herokuapp.com/
 
-## Screenshot
-![mark-predictor](https://user-images.githubusercontent.com/73738015/103455737-735c1a80-4d15-11eb-8c92-877309010d0a.PNG)
-
-
 ## Overview of the Dataset
 ![4](https://user-images.githubusercontent.com/73738015/100090617-74c63780-2e79-11eb-9579-549d90fe009b.JPG)
 
@@ -26,9 +22,14 @@ https://marks-predictor-01.herokuapp.com/
 ## Accuracy Score
 95.14%
 
+## Screenshot of Web-model
+![mark-predictor](https://user-images.githubusercontent.com/73738015/103455737-735c1a80-4d15-11eb-8c92-877309010d0a.PNG)
 
+## Technologies Used
 
+![](https://forthebadge.com/images/badges/made-with-python.svg)
 
+[<img target="_blank" src="https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png" width=170>](https://flask.palletsprojects.com/en/1.1.x/) [<img target="_blank" src="https://number1.co.za/wp-content/uploads/2017/10/gunicorn_logo-300x85.png" width=280>](https://gunicorn.org) [<img target="_blank" src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png" width=200>](https://scikit-learn.org/stable/) 
 
 
 
