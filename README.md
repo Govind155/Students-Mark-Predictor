@@ -1,4 +1,18 @@
 # Student Marks Prediction
+
+## Table of Contents
+  * [Introduction](#introduction)
+  * [Live Demo](#live-demo)
+  * [Overview of the Dataset](#overview-of-the-dataset)
+  * [Visualizing Dataset before processing](#visualizing-dataset-before-processing)
+  * [Visualising the Training set results](#visualising-the-training-set-results)
+  * [Visualising the Testing set results](#visualising-the-testing-set-results)
+  * [Results](#results)
+  * [Accuracy Score](#accuracy-score)
+  * [Screenshot of Web Model](#screenshot-of-web-model)
+  * [Technologies Used](#technologies-used)
+  
+## Introduction
 This system aims to predict student's marks using linear regression. The idea behind this analysis is to predict the marks of students by their studying hours. <br/>
 
 ## Live Demo
@@ -22,7 +36,7 @@ https://marks-predictor-01.herokuapp.com/
 ## Accuracy Score
 95.14%
 
-## Screenshot of Web-model
+## Screenshot of Web Model
 ![mark-predictor](https://user-images.githubusercontent.com/73738015/103455737-735c1a80-4d15-11eb-8c92-877309010d0a.PNG)
 
 ## Technologies Used
