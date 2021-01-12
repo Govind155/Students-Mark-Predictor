@@ -16,10 +16,10 @@ This system aims to predict student's marks using linear regression. The idea be
 ## Live Demo
 https://marks-predictor-01.herokuapp.com/
 
-## Data Visualization
-
-### Overview of the Dataset
+## Overview of the Dataset
 ![4](https://user-images.githubusercontent.com/73738015/100090617-74c63780-2e79-11eb-9579-549d90fe009b.JPG)
+
+## Data Visualization
 
 ### Visualizing Dataset before processing
 ![5](https://user-images.githubusercontent.com/73738015/100088574-57439e80-2e76-11eb-96bb-a0a35a79c9f9.JPG)
