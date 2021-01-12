@@ -2,7 +2,7 @@
 
 ## Table of Contents
   * [Introduction](#introduction)
-  * [Live Demo & Screenshot](#live-demo-&-screenshot)
+  * [Live Demo and Screenshot](#live-demo-and-screenshot)
   * [Overview of the Dataset](#overview-of-the-dataset)
   * [Data Visualization](#data-visualization)
   * [Results](#results)
@@ -12,7 +12,7 @@
 ## Introduction
 This system aims to predict student's marks using linear regression. The idea behind this analysis is to predict the marks of students by their studying hours. <br/>
 
-## Live Demo & Screenshot
+## Live Demo and Screenshot
 Link: https://marks-predictor-01.herokuapp.com/   <br/><br/>
 [![2](https://user-images.githubusercontent.com/73738015/104304043-e07b6700-54f0-11eb-889e-2248dede8eba.JPG)](https://marks-predictor-01.herokuapp.com/)
 
