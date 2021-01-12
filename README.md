@@ -2,7 +2,7 @@
 
 ## Table of Contents
   * [Introduction](#introduction)
-  * [Live Demo](#live-demo)
+  * [Live Demo & Screenshot](#live-demo-&-screenshot)
   * [Overview of the Dataset](#overview-of-the-dataset)
   * [Data Visualization](#data-visualization)
   * [Results](#results)
